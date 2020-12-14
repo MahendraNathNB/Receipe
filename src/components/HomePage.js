@@ -4,6 +4,7 @@ import RecipeCard from './recipe/RecipeCard'
 
 function HomePage(props){
     return(
+        <h1> My Favorite Dishes </h1>
             <div className="container">
         <h1> Home Page </h1>
                 { props.recipes ?
